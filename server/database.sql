@@ -1,0 +1,7 @@
+CREATE DATABASE todoapp;
+
+
+CREATE TABLE todo(
+  tid SERIAL PRIMARY KEY,
+  description VARCHAR(255)
+);
