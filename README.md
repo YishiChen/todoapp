@@ -6,6 +6,7 @@ A todoapp built using Postgresql, Express.js, React.js and Node.js. The reposito
 # Instructions
 To test out the application, you need to install and run a postgresql server with the following credentials:
 
+'''
 const pool = new Pool({
   user: "postgres",
   password: "",
@@ -13,3 +14,4 @@ const pool = new Pool({
   port: 5432,
   database: "todoapp"
 });
+'''
